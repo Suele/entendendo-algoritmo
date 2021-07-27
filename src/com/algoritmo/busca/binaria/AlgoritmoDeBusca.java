@@ -1,6 +1,6 @@
-package com.company;
+package com.algoritmo.busca.binaria;
 
-class AlgoritmoDeBuscaNumerica {
+class AlgoritmoDeBusca {
 
     public int buscaBinaria (int numeroProcurado, int[] listaElementos) {
         int inicio = 0;
