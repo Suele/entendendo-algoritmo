@@ -14,3 +14,8 @@ Ocorre a comparação do item a ser buscado com todos os elementos do array.
 
 ### Pré-requisito
 Paciência.
+
+## Ordenar Elementos
+Podemos organizar números por exemplo em ordem crescente ou decrescente e palavras em ordem alfabética.
+Então ordenar elementos concistem em organizar os elementos em uma ordem estabelecida, para que isso 
+seja possível todos os elementos precisam ser do mesmo tipo.
