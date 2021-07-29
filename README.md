@@ -16,11 +16,10 @@ Ocorre a comparação do item a ser buscado com todos os elementos do array.
 Paciência.
 
 ## Ordenar Elementos
-Podemos organizar números por exemplo em ordem crescente ou decrescente e palavras em ordem alfabética.
-Então ordenar elementos concistem em organizar os elementos em uma ordem estabelecida, para que isso 
-seja possível todos os elementos precisam ser do mesmo tipo.
+Podemos organizar números, por exemplo, em ordem crescente ou decrescente e palavras em ordem alfabética.
+Então ordenar elementos consiste em organiza-los em uma ordem estabelecida, para isto todos os elementos 
+precisam ser do mesmo tipo.
 
 ### Ordenação por Seleção(Selection Sort)
-
 A cada interação seleciona-se o menor elemento dentro do array e coloca-se mais a esquerda possível,
 se for a primeira interação será no índice 0, 1 e assim por diante.
