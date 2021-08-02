@@ -2,7 +2,7 @@
 
 ## Busca Binária com Array
 A cada interação ocorre a separação dos elementos do array em duas partes menor e maior,
-sendo o elemento a ser buscado maior do que a outra metade do array é possivel descartar a metade menor 
+sendo o elemento a ser buscado maior do que a outra metade do array é possível descartar a metade menor 
 e olhar somente para outra metade e isso é feito ate que se ache o elemento no array ou que se verifique
 que o elemento não existe no array.
 
@@ -23,3 +23,5 @@ precisam ser do mesmo tipo.
 ### Ordenação por Seleção(Selection Sort)
 A cada interação seleciona-se o menor elemento dentro do array e coloca-se mais a esquerda possível,
 se for a primeira interação será no índice 0, 1 e assim por diante.
+Não é indicado para ser utilizado em projetos reais, por ser muito lento,
+é utilizado somente como estudo pela sua simplicidade de implementar.
