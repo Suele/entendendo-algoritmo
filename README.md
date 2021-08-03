@@ -1,4 +1,13 @@
 # Entendendo Algoritmo
+Para justificar o quanto um algoritmo é lento será utilizado a notação Big O, que analisa a quantidade de operações
+que são realizadas, conforme os elementos que são analisados aumentam.
+
+
+| binary search | selection sort | pesquisa simples |
+|---------------|----------------|------------------|
+| O log(n)      |    O(n x n)    |        O(n)      |
+
+--------------
 
 ## Busca Binária com Array
 A cada interação ocorre a separação dos elementos do array em duas partes menor e maior,
