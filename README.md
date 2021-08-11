@@ -3,9 +3,9 @@ Para justificar o quanto um algoritmo é lento será utilizado a notação Big O
 que são realizadas, conforme os elementos que são analisados aumentam.
 
 
-| binary search | selection sort | pesquisa simples |
-|---------------|----------------|------------------|
-| O log(n)      |    O(n x n)    |        O(n)      |
+| binary search | selection sort | pesquisa simples | lista encadeada simples|
+|---------------|----------------|------------------|------------------------|
+| O log(n)      |    O(n x n)    |        O(n)      |         O(n)          |
 
 --------------
 
@@ -34,3 +34,10 @@ A cada interação seleciona-se o menor elemento dentro do array e coloca-se mai
 se for a primeira interação será no índice 0, 1 e assim por diante.
 Não é indicado para ser utilizado em projetos reais, por ser muito lento,
 é utilizado somente como estudo pela sua simplicidade de implementar.
+
+### Lista Encadeada Simples
+Acessar um elemento em um array é muito mais rápido do que em uma lista encadeada, primeiro porque
+o array contem índices e segundo porque os elementos são armazenados juntos, um do lado do outro 
+na memória. Na lista encadeada os elementos ficam espalhados pela memória e cada elemento sabe
+apenas quem é o seu próximo ou se não existe próximo elemento, o que torna a sua inserção
+mais rápido e a sua busca mais lenta.
