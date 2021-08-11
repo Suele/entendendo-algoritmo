@@ -1,8 +1,8 @@
 package com.algoritmo.lista.simples;
 
 public class Nodo {
-    public Nodo next;
-    public int item;
+    private Nodo next;
+    private int item;
 
     public Nodo (int item) {
         this.item = item;
