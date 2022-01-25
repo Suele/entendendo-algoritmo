@@ -1,25 +1,35 @@
 package com.algoritmo.lista.simples;
 
 public class Nodo {
-    private Nodo next;
-    private int item;
+	private String value;
+	private Nodo nextNodo;
 
-    public Nodo (int item) {
-        this.item = item;
-        this.next = null;
-    }
+	public Nodo(String value) {
+		this.value = value;
+		this.nextNodo = null;
+	}
 
-    public Nodo addNext (Nodo nextNodo) {
-            this.next = nextNodo;
-            return this.next;
-    }
+	public String getValue() {
+		return value;
+	}
 
-    @Override
-    public String toString () {
-        return "Nodo{" +
-                "next=" + this.next +
-                ", item=" + this.item +
-                '}';
-    }
+	public void setValue(String value) {
+		this.value = value;
+	}
 
+	public Nodo getNextNodo() {
+		return nextNodo;
+	}
+
+	public void setNextNodo(Nodo nextNodo) {
+		this.nextNodo = nextNodo;
+	}
+
+	@Override
+	public String toString() {
+		return "Nodo{" +
+				"valor: " + value +
+				", proximo nodo: " + nextNodo +
+				'}';
+	}
 }
