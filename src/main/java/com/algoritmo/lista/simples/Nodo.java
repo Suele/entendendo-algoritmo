@@ -1,19 +1,19 @@
 package com.algoritmo.lista.simples;
 
-public class Nodo {
-	private String value;
+public class Nodo<T> {
+	private T value;
 	private Nodo nextNodo;
 
-	public Nodo(String value) {
+	public Nodo(T value) {
 		this.value = value;
 		this.nextNodo = null;
 	}
 
-	public String getValue() {
+	public T getValue() {
 		return value;
 	}
 
-	public void setValue(String value) {
+	public void setValue(T value) {
 		this.value = value;
 	}
 
@@ -21,7 +21,7 @@ public class Nodo {
 		return nextNodo;
 	}
 
-	public void setNextNodo(Nodo nextNodo) {
+	public void setNextNodo(Nodo<T> nextNodo) {
 		this.nextNodo = nextNodo;
 	}
 
